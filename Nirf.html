@@ -5,36 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amenities-Facilities</title>
+    <title>Commitee | GNIET</title>
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/chatbot.css">
-
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+
+
+
 </head>
 
 <body>
     <header style="position: sticky;">
     
         <div id="header-logo">
-            <img src="./assets/gni_logo.svg" alt="GNIT Logo" >
-            <div id="header-logo-text">
-                <h3>Guru Nanak Institute of Engineering and Technology</h3>
-                <span>Dahegaon, Kalmeshwar Road, Nagpur, Maharashtra 441502</span>
-            </div>
-        </div>
-
-        <div id="header-contact">
-            <h3>Contact Us :</h3>
-            <div id="header-contact-details">
-                <span>07118-661400<br>gnietnagpur@gmail.com</span>
-            </div>
-        </div>
+             <img src="./assets/gni_logo.svg" alt="GNIT Logo" style="width: 10%;">
+             <div id="header-logo-text">
+                 <h3>Guru Nanak Institute of Engineering and Technology</h3>
+                 <span>Dahegaon, Kalmeshwar Road, Nagpur, Maharashtra 441502</span>
+             </div>
+         </div>
+ 
+         <div id="header-contact" >
+             <h3>Contact Us :</h3><br>
+             <div id="header-contact-details">
+                 <span>07118-661400<br>gnietnagpur@gmail.com</span>
+             </div>
+         </div>
     </header>
     <!--navbar-->
     <nav class="navbar navbar-expand-xl sticky-top" id="bgrd">
@@ -51,16 +62,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav" style="margin: auto;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"  href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" style="color:white;" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="about.html">About</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="departments.html">Departments</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="departments.html">Departments</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="admission.html">Admission</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="admission.html">Admission</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="graduation.html">Under Graduation</a></li>
                             <li><a class="dropdown-item" href="post_graduation.html">Post Graduation</a></li>
@@ -72,7 +83,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" style="color: white" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <b>Campus Life</b>
+                            Campus Life
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="hostel.html">Hostel</a></li>
@@ -84,17 +95,17 @@
                         </ul>
                     </li>
                     <!-- <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="events.html">Events</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="events.html">Events</a>
                     </li> -->
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="placements.html">Placements</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="placements.html">Placements</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="commitee.html">Committee</a>
+                        <a class="nav-link active" aria-current="page" style="color: orange;" href="commitee.html"><b>Committee</b></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
                             AICTE
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -103,16 +114,16 @@
                         </ul>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="IQAC.html">IQAC</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="IQAC.html">IQAC</a>
                     </li>
 		    <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" style="color: white;" href="Nirf.html"><b>Nirf</b></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="feedback.html">Feedback</a>
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="feedback.html">Feedback</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             More
                         </a>
@@ -128,116 +139,43 @@
     </nav>
     <!------------------Navbar end-------------------->
 
-    <!-- image section -->
-    <section id="facilities">
-        <h2 class="heading">Amenities<span>____</span></h2>
-        <!-- carousel -->
-        <section class="top_carousel">
-            <div class="owl-carousel owl-theme slidet">
-                <div class="slidecard">
-                    <img src="./assets/home/hero_bg.png" alt="">
-                </div>
-                <div class="slidecard">
-                    <img src="./assets/home/hero_bg.png" alt="">
-                </div>
-                <div class="slidecard">
-                    <img src="./assets/home/hero_bg.png" alt="">
-                </div>
-                <div class="slidecard">
-                    <img src="./assets/home/hero_bg.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- text area -->
-        <!-- <p class="px-5">GNI has fully computerized library whose total area is 562 Sq. M. with well-furnished reading
-            room for students and staff with 200 sitting capacity. It has computers with internet connections which
-            facilitate the students and staff to update their knowledge with latest information. Our library is vast
-            store house of knowledge having an extensive collection of books and journals. The books are systematically
-            arranged according to title and subjects. A copier facility is also provided for the benefit of the
-            students. We have 19268 total number of volumes, 3066 number of titles, 48 journals, 8 magazine, and 663
-            numbers of E-books, 457 CD’s with various national and international journals.
-        </p> -->
+
+    <!--------------About Section Start------------->
+    <section class="about">
+        <h2 class="heading"><b>Nirf</b><span>____</span></h2>
+        
     </section>
 
-    <!-- accomodation -->
+    <section id="admission-courses">
 
-
-     <section id="accomodation">
-        <h6 class="subheading px-5 mt-5" style="text-align:left;margin-left:0px;">Other Amenities</h6>
-        <div class="accomodation-list px-md-5 px-sm-2">
-            <ol>
-                <li>Auditorium</li>
-                <li> Computing Centres</li>
-                <li>Conference Hall</li>
-                <li>Hostel Facility</li>
-            </ol>
+        <div class="table-responsive px-md-5 table-bordered" style="margin-left: 6.5%; margin-right: 6.5%;">
+          <h6 class="subheading" style="margin: 0%; text-align: left;">Nirf Report</h6>
+          <br>
+          <table class="table table-striped" style="text-align: left;">
+            <thead>
+              <tr>
+                <th>Sr. No</th>
+                <th>Nirf Report</th>
+                <th style="text-align: center;">Document</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Nirf Report 2023</td>
+                <td style="text-align: center;"><a href="assets/documents/Nirf/Nirf report 2023.pdf" target="_blank"><b style="color: blue; font-weight: 500;">View</b></a></td>
+                <tr>
+              
+            </tbody>
+          </table>
+    
         </div>
-    </section>
+      </section>
+      <!-- Nirf section ends -->
 
-    <!-- admission to hostel -->
-
-    <!-- <section id="accomodation">
-        <h6 class="subheading px-5 mt-5" style="text-align:left;margin-left:0px;">Admission to Hostel</h6>
-        <div class="admissson-list px-md-5 px-sm-2">
-            <ul>
-                <li>Application for admission to the Hostel should be made in the prescribed form. A passport size
-                    photograph must be affixed in the application form. The students seeking hostel admission must give
-                    an undertaking in writing that he/ she will abide by the rules of the Hostel. This shall be endorsed
-                    by the Parent or Guardian in writing.
-                </li>
-                <li>Residentship shall be terminated automatically at the end of each academic year. Students, who are
-                    desirous of returning to the hostel, shall make a fresh application for re-admission.
-                </li>
-                <li>The Management reserves the right to refuse admission to hostel to any student without assigning any
-                    reason or to expel any member in the interest of smooth administration. The decision of the
-                    Management will be final.
-                </li>
-                <li>A student admitted to the hostel for a particular year should pay the fees for the entire period of
-                    one year regardless of the date of joining.
-                </li>
-                <li>A student who joins the hostel is expected to stay for a minimum period of one academic year and any
-                    one leaving the hostel before completion of the period will forfeit the establishment charges and
-                    the fees paid
-                </li>
-                <li>A student who once reserves his/ her seat and pays the fees for hostel accommodation will not be
-                    eligible for refund if he/she cancels later.</li>
-            </ul>
-        </div>
-    </section> -->
-
-    <!-- other facilities -->
-    <section id="other-facilities">
-        <h6 class="subheading px-5 mt-5" style="text-align:left;margin-left:0px;">Others</h6>
-        <div class="other-facilities-container">
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/canteen(blue).svg" alt="">
-                <p>Canteen</p>
-            </div>
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/library(blue).svg" alt="">
-                <p>Library</p>
-            </div>
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/transportation(blue).svg" alt="">
-                <p>Transportation</p>
-            </div>
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/sports(blue).svg" alt="">
-                <p>Sports</p>
-            </div>
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/hostel(blue).svg" alt="">
-                <p>Hostel</p>
-            </div>
-            <div class="other-facility-box">
-                <img src="./assets/home/campus/amenities(blue).svg" alt="">
-                <p>Amenities</p>
-            </div>
-        </div>
-    </section>
 
     
-    <!--Footer Section-->
+    <!-- footer -->
     <footer id="footer" class="p-4" style="background: #A9FFFA4F">
         <div class="container">
             <div class="row justify-content-evenly">
@@ -340,12 +278,12 @@
         <span><span class="far fa-copyright"></span> Design & Develop by Actics Technologies Pvt Ltd. All rights reserved.
         </span>
     </section>
-    <!-- footer section ends -->
+
     <script src="./js/Jquery-3.5.1.min.js"></script>
 
     <script src="./js/owl.carousel.min.js"></script>
     <script src="js/dropdown.js"></script>
-    <script src="./js/topcarousel.js"></script>
+    <script src="js/about.js"></script>
     <script src="./js/chat.js"></script>
     <script src="./js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
